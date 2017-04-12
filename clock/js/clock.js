@@ -107,15 +107,15 @@ $(document).ready(function() {
 		var c = {
 			year : 2017,
 			month : 4,
-			day : 15,
-			hh : 00,
+			day : 20,
+			hh : 12,
 			min : 00,
 			sec : 0,
 			milsec : 0
 		};
 		var cd = new Date();
-		cd.setYear(c.year);
-		cd.setMonth(c.month);
+		// cd.setYear(c.year);
+		// cd.setMonth(c.month);
 		//month start from 0
 		cd.setDate(c.day);
 		cd.setHours(c.hh, c.min, c.sec, c.milsec);
